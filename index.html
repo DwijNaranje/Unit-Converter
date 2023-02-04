@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>Unit Converter</title>
+    <link rel="stylesheet" type="text/css" href="style.css">
+  </head>
+  <body>
+    <h1>Unit Converter</h1>
+    <div id="converter">
+      <input type="text" id="inputValue">
+      <select id="inputUnit">
+        <option value="m">Meters</option>
+        <option value="ft">Feet</option>
+        <option value="yd">Yards</option>
+      </select>
+      <p id="equal">=</p>
+      <input type="text" id="outputValue" disabled>
+      <select id="outputUnit">
+        <option value="ft">Feet</option>
+        <option value="m">Meters</option>
+        <option value="yd">Yards</option>
+      </select>
+    </div>
+    <button id="convertBtn">Convert</button>
+    <script src="script.js"></script>
+  </body>
+</html>
